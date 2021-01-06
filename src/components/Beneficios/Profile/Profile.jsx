@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "../Profile/styles/Profile.css";
 import { ContextUser } from "../../../App";
 import data from "../../../data/users.json";
@@ -11,9 +11,12 @@ import ProgressBar from "react-customizable-progressbar";
 import imgBoton from "../../../img/Historial_icono.png";
 import logoColores from "../../../img/pointsIcon.svg";
 import CountUp from "react-countup";
+import History from "./History";
+import Filter from "../Beneficios/Filter";
 
 const UserProfile = () => {
   const [user]= useContext(ContextUser);
+  const [modalHistory,setModalHistory]=useState(false);
 
   const category = user === 0 ? "MACH Explorer" : "MACH Lover";
   const classPointsChallenge =
@@ -69,10 +72,11 @@ const UserProfile = () => {
           <span>Paga una cuenta de servicio con MACH</span>
         </section>
       </div>
-      <button className="boton-historial">
+      <button className="boton-historial" onClick={()=> setModalHistory(!modalHistory)}>
         <img className="iconButtonProfile" src={imgBoton} alt="" />
         Mi historial
       </button>
+      <History filter={modalHistory} setFilter={setModalHistory}/>
       <div className="containerBenefitsProfile">
         <span className="titleBenefits">Tus ganancias MACHer</span>
         <span className="textBenefits">

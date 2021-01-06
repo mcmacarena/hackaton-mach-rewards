@@ -8,6 +8,7 @@
   background-color: #6200EE;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 .containerElementsBeneficios{
   display: flex;

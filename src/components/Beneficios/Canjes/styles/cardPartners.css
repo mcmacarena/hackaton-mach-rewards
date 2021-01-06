@@ -4,13 +4,13 @@
   justify-content: space-between;
   margin: 15px 0 15px 0;
 }
-.containerButtonsFilter{
+.containerButtonsFilterCanjes{
   display: flex;
   flex-flow: row wrap;
 }
 
 
-.buttonFilter{
+.buttonFilterCanjes{
   border: 2px solid #6200EE;
   border-radius: 50px;
   color: #6200EE;

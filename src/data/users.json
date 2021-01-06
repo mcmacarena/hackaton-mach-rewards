@@ -288,7 +288,7 @@
       }
     ],
     "perfil": {
-      "logoCategoria": "../img/Banner_Mach_Begginer.png",
+      "logoCategoria": "../img/Banner_Mach_Beginner.png",
       "dineroAhorrado": "$0",
       "puntosAmigos": "0",
       "puntosCarga": "0",
@@ -353,7 +353,7 @@
       }
     ],
     "perfil": {
-      "logoCategoria": "../img/Banner_Mach_Begginer.png",
+      "logoCategoria": "../img/Banner_mach_adventure.png",
       "dineroAhorrado": 15538,
       "puntosAmigos": "5000",
       "puntosCarga": "3000",
@@ -380,6 +380,163 @@
         "texto": "15% de descuento en tu primera compra",
         "descuento": "15%",
         "categoria": "Ropa"
+      }
+    ],
+    "canjes": [
+      {
+        "categoria": "Bar / Cafeteria",
+        "pointCategoria": "Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/catBarCafeteria.svg",
+        "description": "Más de 20 Locales para disfrutar"
+      },
+      {
+        "categoria": "Telefonia",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/telefonia.svg",
+        "description": "Planes, moviles en Virgin, WOM"
+      },
+      {
+        "categoria": "Streaming",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/streaming.svg",
+        "description": "Música, series, películas y más"
+      },
+      {
+        "categoria": "Accesorios",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/accesorios.svg",
+        "description": "Complementa tu estilo con estos..."
+      },
+      {
+        "categoria": "Internacional",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/internacional.svg",
+        "description": "Aliexpress, Shein, tiendas extranjeras"
+      },
+      {
+        "categoria": "Hogar",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/hogar.svg",
+        "description": "Decora tu hogar y dale tu toque"
+      },
+      {
+        "categoria": "Restaurant",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/restaurant.svg",
+        "description": "Más de 20 locales para disfrutar"
+      },
+      {
+        "categoria": "Mascotas",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/mascotas.svg",
+        "description": "Alimento, accesorios, med..."
+      },
+      {
+        "categoria": "Viajes",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/viajes.svg",
+        "description": "Nacionales e internacionales"
+      },
+      {
+        "categoria": "Aventuras",
+        "subCategoria": [
+          {
+            "img": "../img/canjes/subcategorias/farellones.svg",
+            "title": "Farellones",
+            "points": "50.000 Puntos",
+            "imgPointCat": "../img/canjes/logPtos.svg",
+            "description": "Entrada 1 adulto para pista Ski por un día"
+          },
+          {
+            "img": "../img/canjes/subcategorias/clasesdesurf.svg",
+            "title": "Clase de surf",
+            "points": "5.000 Puntos",
+            "imgPointCat": "../img/canjes/logPtos.svg",
+            "description": "Clases de Surf en Viña del mar 1 adulto"
+          },
+          {
+            "img": "../img/canjes/subcategorias/clasedeescalada.svg",
+            "title": "Clase de escalada",
+            "points": "25.000 Puntos",
+            "imgPointCat": "../img/canjes/logPtos.svg",
+            "description": "Aprende a escalar en el cajón de Maipo tu y un@ amig@"
+          },
+          {
+            "img": "../img/canjes/subcategorias/parapente.svg",
+            "title": "Parapente",
+            "points": "25.000 Puntos",
+            "imgPointCat": "../img/canjes/logPtos.svg",
+            "description": "Disfruta del cielo y vuela con un instructor"
+          },
+          {
+            "img": "../img/canjes/subcategorias/paseoenmoto.svg",
+            "title": "Paseo en moto",
+            "points": "8.000 Puntos",
+            "imgPointCat": "../img/canjes/logPtos.svg",
+            "description": "Siéntete todo terreno con este circuito en moto 4 ruedas"
+          },
+          {
+            "img": "../img/canjes/subcategorias/raftingpara4.svg",
+            "title": "Rafting para 4",
+            "imgPointCat": "../img/canjes/logPtos.svg",
+            "description": "Navega por el río Maipo con 4 amigos"
+          }
+        ],
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/aventuras.svg",
+        "description": "Que esperas para vivir al límite"
+      },
+      {
+        "categoria": "Hoteles",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/hoteles.svg",
+        "description": "Desconéctate por un tiempo"
+      },
+      {
+        "categoria": "Tecnología",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/tecnologia.svg",
+        "description": "Xbox, Play Station, accesorios y más"
+      },
+      {
+        "categoria": "Deportes",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/deportes.svg",
+        "description": "Ropa, accesorios para diferentes ..."
+      },
+      {
+        "categoria": "Banda ancha",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/bandaancha.svg",
+        "description": "Canjea tus puntos por internet hogar"
+      },
+      {
+        "categoria": "Juguetería",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/jugueteria.svg",
+        "description": "Juegos de mesa, para niñ@s"
+      },
+      {
+        "categoria": "Mercadería",
+        "pointCategoria":"Adventure",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "imgCanje": "../img/canjes/categorias/mercaderia.svg",
+        "description": "Frutas, verduras, concervas ..."
       }
     ]
   }
