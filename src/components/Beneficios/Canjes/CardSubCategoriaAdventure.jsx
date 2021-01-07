@@ -1,27 +1,50 @@
-import React from 'react'
+import React,{useContext}from 'react'
+import { ContextUser } from '../../../App';
 import './styles/cardSubCategoriaAdventure.css'
+import data from '../../../data/users.json'
+import back from '../../../img/back.svg'
+import PointWins from './PointsWins'
 
 const CardSubCategoria = (props) => {
-  const classToogleAdventure = props.adventureSubcat === true ? 'toggleVisible' : 'toggleHidden';
+  const classToogleAdventure = props.adventureSubcat === true ? 'toggleVisibleSubCategory' : 'toggleHiddenSubCategory';
+  const [user] = useContext(ContextUser);
+
+// let subCategory = data[user].canjes.map((subdata)=>{
+//   return subdata.subCategoria
+// }) 
 
   return (
     <div className={classToogleAdventure}>
-    <div className="containerCardSubcategory">
+      <PointWins />
+      <div className="containerTitleAndDescription">
+        <h4>Aventuras</h4>
+        <p>Que esperas para vivir al límite, diviértete al máximo con estas aventuras extremas.
+          Sólo para atrevídos</p>
+      </div>
+      <img className="imaArrowBack" onClick={() => props.setadventureSubcat(!props.adventureSubcat)} src={back} alt="" />
+      {data[user].subCategoriaCanjes.map((data, index) => {
+      return  <div key={index} className="containerCardSubcategory">
+        
       <div className="containerImgSubCategory">
+        <img src={`${data.img}`} alt="insub"/>
       </div>
       <div className="containerDetailsSubCatg">
+      <h5>{data.title}</h5>
       <div className="pointsAndLevelSubCategory">
       <div className="containerLogPtosSubCategory">
-      <img  src="" alt="logoPtos"/>
+      <img  src={`${data.imgPointCat}`} alt="logoPtos"/>
       </div>
-      <h6> pspasdjaskdasd</h6>
+      <h6>{data.points}</h6>
       </div>
       <div className="descriptionSubCategory">
-        <p> </p>
+        <p>{data.description} </p>
       </div>
-      <p> </p>
+      <p className="textCanjear">Canjear</p>
       </div>
     </div>
+    
+   
+        })}
     </div>
   )
 }

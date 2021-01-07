@@ -17,10 +17,59 @@
     border-radius: 1rem;
     border: none;
   }
-  .closeModal{
+  .closeModalChallenge{
     position:absolute;
-    top: 0;
-    right: 0;
+    top: -3px;
+    right: -12px;
     padding-top: 5vw;
     padding-right: 8vw;
+    height: 2vh;
   }
+
+  .imgModal {
+    width: 100%;
+    margin-top: 0%;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .challengeBanner{
+    height: 4%;
+    background-color: #EE9B00;
+  }
+
+  .titleBanner{
+    margin-left: 2%;
+    margin-top:1%;
+    font-size: 3.5vw;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .iconoChallenge{
+    margin-right: 3%;
+  }
+
+.infoModal{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.pointsModal p{
+  color: #EE9B00;
+  font-weight: 700;
+  font-size: 3.5vw;
+}
+.pointsModal p img{
+  margin-right: 3%;
+}
+
+.titleModal{
+  font-size: 4vw;
+  font-weight: 700;
+}
+
+.paragraphModal{
+  font-size: 3.5vw;
+  font-weight: 400;
+}

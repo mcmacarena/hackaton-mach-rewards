@@ -23,7 +23,7 @@ const Rewards = () => {
       </div>
      
       <CardPartners  click={() => setadventureSubcat(!adventureSubcat)}/>
-      <CardSubCategoriaAdventure adventureSubcat={adventureSubcat}/>
+      <CardSubCategoriaAdventure adventureSubcat={adventureSubcat} setadventureSubcat={setadventureSubcat}/>
      </div>
       </div>
      

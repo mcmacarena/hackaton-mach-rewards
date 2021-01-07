@@ -10,6 +10,7 @@
       }
     ],
     "puntos": 0,
+    "descTipoNivelPuntos":"Categoria Beginner:Hasta 50.000 Puntos",
     "desafiosprincipales": [
       {
         "titulo": "Invita a un amigo",
@@ -17,7 +18,9 @@
         "foto": "../img/desafios/DesafioAmigos.svg",
         "Explicacion": "Ayúdanos a que la comunidad MACH crezca y gana puntos fácilmente",
         "iconobton": "",
-        "textobton": "Invita y gana"
+        "textobton": "Invita y gana",
+        "titulomodal":"Invita a tus amigos",
+        "textomodal": "Ayúdanos a que la comunidad de MACH crezca e invíta a un amig@ a descargar la App."
       },
       {
         "titulo": "Colecciona las letras",
@@ -196,49 +199,7 @@
       },
       {
         "categoria": "Aventuras",
-        "subCategoria": [
-          {
-            "img": "../img/canjes/subcategorias/farellones.svg",
-            "title": "Farellones",
-            "points": "50.000 Puntos",
-            "imgPointCat": "../img/canjes/logPtos.svg",
-            "description": "Entrada 1 adulto para pista Ski por un día"
-          },
-          {
-            "img": "../img/canjes/subcategorias/clasesdesurf.svg",
-            "title": "Clase de surf",
-            "points": "5.000 Puntos",
-            "imgPointCat": "../img/canjes/logPtos.svg",
-            "description": "Clases de Surf en Viña del mar 1 adulto"
-          },
-          {
-            "img": "../img/canjes/subcategorias/clasedeescalada.svg",
-            "title": "Clase de escalada",
-            "points": "25.000 Puntos",
-            "imgPointCat": "../img/canjes/logPtos.svg",
-            "description": "Aprende a escalar en el cajón de Maipo tu y un@ amig@"
-          },
-          {
-            "img": "../img/canjes/subcategorias/parapente.svg",
-            "title": "Parapente",
-            "points": "25.000 Puntos",
-            "imgPointCat": "../img/canjes/logPtos.svg",
-            "description": "Disfruta del cielo y vuela con un instructor"
-          },
-          {
-            "img": "../img/canjes/subcategorias/paseoenmoto.svg",
-            "title": "Paseo en moto",
-            "points": "8.000 Puntos",
-            "imgPointCat": "../img/canjes/logPtos.svg",
-            "description": "Siéntete todo terreno con este circuito en moto 4 ruedas"
-          },
-          {
-            "img": "../img/canjes/subcategorias/raftingpara4.svg",
-            "title": "Rafting para 4",
-            "imgPointCat": "../img/canjes/logPtos.svg",
-            "description": "Navega por el río Maipo con 4 amigos"
-          }
-        ],
+        
         "pointCategoria": "Beginner",
         "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/aventuras.svg",
@@ -285,6 +246,49 @@
         "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/mercaderia.svg",
         "description": "Frutas, verduras, concervas ..."
+      }
+    ],
+    "subCategoriaCanjes": [
+      {
+        "img": "../img/canjes/subcategorias/farellones.svg",
+        "title": "Farellones",
+        "points": "50.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Entrada 1 adulto para pista Ski por un día"
+      },
+      {
+        "img": "../img/canjes/subcategorias/clasesdesurf.svg",
+        "title": "Clase de surf",
+        "points": "5.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Clases de Surf en Viña del mar 1 adulto"
+      },
+      {
+        "img": "../img/canjes/subcategorias/clasedeescalada.svg",
+        "title": "Clase de escalada",
+        "points": "25.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Aprende a escalar en el cajón de Maipo tu y un@ amig@"
+      },
+      {
+        "img": "../img/canjes/subcategorias/parapente.svg",
+        "title": "Parapente",
+        "points": "25.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Disfruta del cielo y vuela con un instructor"
+      },
+      {
+        "img": "../img/canjes/subcategorias/paseoenmoto.svg",
+        "title": "Paseo en moto",
+        "points": "8.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Siéntete todo terreno con este circuito en moto 4 ruedas"
+      },
+      {
+        "img": "../img/canjes/subcategorias/raftingpara4.svg",
+        "title": "Rafting para 4",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Navega por el río Maipo con 4 amigos"
       }
     ],
     "perfil": {
@@ -352,6 +356,8 @@
         "fecha": "11/04/2020"
       }
     ],
+    "puntos": "175.000",
+    "descTipoNivelPuntos":"Categoria Adventure:desde 150.000 Hasta 300.000 Puntos",
     "perfil": {
       "logoCategoria": "../img/Banner_mach_adventure.png",
       "dineroAhorrado": 15538,
@@ -448,49 +454,6 @@
       },
       {
         "categoria": "Aventuras",
-        "subCategoria": [
-          {
-            "img": "../img/canjes/subcategorias/farellones.svg",
-            "title": "Farellones",
-            "points": "50.000 Puntos",
-            "imgPointCat": "../img/canjes/logPtos.svg",
-            "description": "Entrada 1 adulto para pista Ski por un día"
-          },
-          {
-            "img": "../img/canjes/subcategorias/clasesdesurf.svg",
-            "title": "Clase de surf",
-            "points": "5.000 Puntos",
-            "imgPointCat": "../img/canjes/logPtos.svg",
-            "description": "Clases de Surf en Viña del mar 1 adulto"
-          },
-          {
-            "img": "../img/canjes/subcategorias/clasedeescalada.svg",
-            "title": "Clase de escalada",
-            "points": "25.000 Puntos",
-            "imgPointCat": "../img/canjes/logPtos.svg",
-            "description": "Aprende a escalar en el cajón de Maipo tu y un@ amig@"
-          },
-          {
-            "img": "../img/canjes/subcategorias/parapente.svg",
-            "title": "Parapente",
-            "points": "25.000 Puntos",
-            "imgPointCat": "../img/canjes/logPtos.svg",
-            "description": "Disfruta del cielo y vuela con un instructor"
-          },
-          {
-            "img": "../img/canjes/subcategorias/paseoenmoto.svg",
-            "title": "Paseo en moto",
-            "points": "8.000 Puntos",
-            "imgPointCat": "../img/canjes/logPtos.svg",
-            "description": "Siéntete todo terreno con este circuito en moto 4 ruedas"
-          },
-          {
-            "img": "../img/canjes/subcategorias/raftingpara4.svg",
-            "title": "Rafting para 4",
-            "imgPointCat": "../img/canjes/logPtos.svg",
-            "description": "Navega por el río Maipo con 4 amigos"
-          }
-        ],
         "pointCategoria":"Adventure",
         "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/aventuras.svg",
@@ -537,6 +500,49 @@
         "imgPointCat": "../img/canjes/logPtos.svg",
         "imgCanje": "../img/canjes/categorias/mercaderia.svg",
         "description": "Frutas, verduras, concervas ..."
+      }
+    ],
+    "subCategoriaCanjes": [
+      {
+        "img": "../img/canjes/subcategorias/farellones.svg",
+        "title": "Farellones",
+        "points": "50.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Entrada 1 adulto para pista Ski por un día"
+      },
+      {
+        "img": "../img/canjes/subcategorias/clasesdesurf.svg",
+        "title": "Clase de surf",
+        "points": "5.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Clases de Surf en Viña del mar 1 adulto"
+      },
+      {
+        "img": "../img/canjes/subcategorias/clasedeescalada.svg",
+        "title": "Clase de escalada",
+        "points": "25.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Aprende a escalar en el cajón de Maipo tu y un@ amig@"
+      },
+      {
+        "img": "../img/canjes/subcategorias/parapente.svg",
+        "title": "Parapente",
+        "points": "25.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Disfruta del cielo y vuela con un instructor"
+      },
+      {
+        "img": "../img/canjes/subcategorias/paseoenmoto.svg",
+        "title": "Paseo en moto",
+        "points": "8.000 Puntos",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Siéntete todo terreno con este circuito en moto 4 ruedas"
+      },
+      {
+        "img": "../img/canjes/subcategorias/raftingpara4.svg",
+        "title": "Rafting para 4",
+        "imgPointCat": "../img/canjes/logPtos.svg",
+        "description": "Navega por el río Maipo con 4 amigos"
       }
     ]
   }

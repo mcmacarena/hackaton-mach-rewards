@@ -31,6 +31,8 @@
   margin-right: 5px;
   padding: 0 10px 15px 10px;
 }
+
+
 .containerTextCardProfile{
   display: flex;
   flex-flow: column nowrap;
@@ -74,6 +76,17 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-top: -15px;
+}
+.RCP {
+  display: flex;
+  flex-direction: column;
+}
+
+.indicator{
+  line-height: 0;
+  margin-top: -102px;
+  margin-bottom: 18px;
 }
 
 /* texto que va en medio del ProgressBar*/

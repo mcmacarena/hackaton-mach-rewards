@@ -1,4 +1,4 @@
-.toggleHidden {
+.toggleHiddenSubCategory {
   display: flex;
   flex-flow: column nowrap;
   position: fixed;
@@ -6,34 +6,50 @@
   right: 0;
   top: 20vw;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   /* border: 2px solid #F4F4F4; */
   box-sizing: border-box;
   transition: transform 0.2s ease-in-out;
-  background-color: white
+  background-color: white;
 }
-.toggleVisible {
+.toggleVisibleSubCategory  {
   display: flex;
   position: fixed;
+  /* padding-top: 40vh;
+  padding-bottom: 10vh; */
   align-items: center;
   justify-content: center;
   flex-flow: column nowrap;
   transform: translateX(0%);
-  top: 20vw;
+  top: 20vh;
   right: 0;
   width: 100vw;
-  height: 100vh;
+  height: 130vh;
   /* border: 2px solid #F4F4F4; */
   box-sizing: border-box;
   transition: transform 0.2s ease-in-out;
   z-index: 3;
   cursor:pointer;
-  background-color: white
+  background-color: white;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 
 
+.imaArrowBack{
+  align-self: flex-start;
+  margin-left: 8vw;
+  margin-bottom: 3vh;
 
+}
+.containerTitleAndDescription{
+  width: 352px;
+  height: 140px;
+  margin-bottom: 2vh;
+
+}
 
 .containerCardSubcategory{
   display: flex;
@@ -43,8 +59,52 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.18);
   border-radius: 10px;
   flex-direction: row;
+  margin-bottom: 3vh;
 }
 
 .containerDetailsSubCatg{
+display: flex;
+flex-direction: column;
+}
+.containerDetailsSubCatg h5{
+margin-left: 4vw;
+margin-bottom: 0;
+font-size: 1.3rem;
+color: #333333;
+margin-top: 1.5vh;
+}
+.pointsAndLevelSubCategory{
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.containerLogPtosSubCategory{
+  margin-left: 4vw;
+  margin-right: 3vw;
+  
+}
+.pointsAndLevelSubCategory h6{
+  font-size: 0.87rem;
+  color: #EE9B00;
+
+}
+.descriptionSubCategory{
+  margin-left: 4vw;
+  font-size: 0.87rem;
+  color: rgba(0, 0, 0, 0.6);
+mix-blend-mode: normal;
+margin-top: -2vh;
+}
+.textCanjear{
+  color: #EE9B00;
+  font-size: 1.125rem;
+  margin-top: -1.5vh;
+  margin-left: 4vw;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 25px;
+  mix-blend-mode: normal;
+
 
 }

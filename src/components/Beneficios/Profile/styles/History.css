@@ -1,10 +1,10 @@
-.toggleHidden {
+.toggleHiddenHistory {
     display: flex;
     flex-flow: column nowrap;
     position: fixed;
     transform: translateX(100%);
     right: 0;
-    top: 20vw;
+    top: 10vh;
     width: 100vw;
     height: 90vh;
     /* border: 2px solid #F4F4F4; */
@@ -12,15 +12,14 @@
     transition: transform 0.2s ease-in-out;
     background-color: white
   }
-  .toggleVisible {
+  .toggleVisibleHistory {
     display: flex;
     position: fixed;
     align-items: center;
-    justify-content: center;
     flex-flow: column nowrap;
     transform: translateX(0%);
-    top: 20vw;
     right: 0;
+    top: 10vh;
     width: 100vw;
     height: 100vh;
     /* border: 2px solid #F4F4F4; */
@@ -28,7 +27,8 @@
     transition: transform 0.2s ease-in-out;
     z-index: 3;
     cursor:pointer;
-    background-color: white
+    background-color: white;
+    overflow: scroll;
   }
 
   .title{
@@ -38,6 +38,9 @@
     font-size: 21px;
     line-height: 29px;
     color: #6200EE;
+    align-self: flex-start;
+    margin-left: 8vw;
+    margin-bottom: 3vh;
   }
 
   h1{
@@ -56,4 +59,18 @@
     font-size: 18px;
     line-height: 25px;
     color: #333333;
+  }
+
+  .MuiStepIcon-text {
+      fill: transparent!important;
+  }
+
+  .MuiSvgIcon-root {
+    width: .7em!important;
+    height: .7em!important;
+    margin-left: 5px;
+  }
+
+  .MuiStepContent-root {
+    margin-top: -20px!important;
   }
